@@ -1,0 +1,52 @@
+name: hugo
+
+on:
+  push:
+    branches:
+        - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - name: Checkout submodules
+      run: git submodule update --init --recursive
+
+    - name: hugo
+      uses: klakegg/actions-hugo@1.0.0
+      with:
+        version: 0.75.1
+        image: ext-alpine
+        env: production
+
+    - name: set up QEMU
+      uses: docker/setup-qemu-action@v1
+
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v1
+
+    - name: Login to Nexus
+      uses: docker/login-action@v1
+      with:
+        registry: nexus.terrestris.de
+        username: ${{ secrets.NEXUS_USERNAME }}
+        password: ${{ secrets.NEXUS_TOKEN }}
+
+    - name: build and push
+      id: docker_build
+      uses: docker/build-push-action@v2
+      with:
+        push: true
+        context: .
+        tags: |
+          nexus.terrestris.de/geostyler/geostyler-homepage:latest
+          nexus.terrestris.de/geostyler/geostyler-homepage:0.0.1
