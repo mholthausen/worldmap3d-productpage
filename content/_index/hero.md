@@ -6,7 +6,7 @@ weight = 50
 background = "light" # can influence the text color
 particles = true
 
-title = "Worldmap 3D"
+title = "WorldMap3D"
 subtitle = "Beyond the limits"
 
 [header]

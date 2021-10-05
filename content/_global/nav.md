@@ -15,7 +15,7 @@ sticky = true
 # Branding options
 [asset]
   image = "logo_light.svg"
-  text = "Worldmap 3D"
+  text = "WorldMap3D"
 
 [repo_button]
   url = "https://github.com/mholthausen/worldmap_3d"

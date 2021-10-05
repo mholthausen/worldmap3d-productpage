@@ -26,7 +26,7 @@ lastmod = ["lastmod", ":git", "date"]
      unsafe = true
 
 [params]
-  name = "Worldmap 3D"
+  name = "WorldmMap3D"
   description = "Beyond the limits"
   debug = true
   unsafeEvents = false # Default is false. Enables ?event=type format of url events.

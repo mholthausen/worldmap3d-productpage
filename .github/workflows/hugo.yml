@@ -48,5 +48,5 @@ jobs:
         push: true
         context: .
         tags: |
-          nexus.terrestris.de/geostyler/geostyler-homepage:latest
-          nexus.terrestris.de/geostyler/geostyler-homepage:0.0.1
+          nexus.terrestris.de/worldmap3d/worldmap3d-productpage:latest
+          nexus.terrestris.de/worldmap3d/worldmap3d-productpage:0.0.1
