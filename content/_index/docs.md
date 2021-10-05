@@ -4,16 +4,12 @@ date = "2020-10-06"
 weight = 120
 #background = "secondary"
 align = "center"
+disabled = true
 
-title = "Read the docs"
-subtitle = "Read our API docs for details on code usage."
+title = ""
+subtitle = ""
 
-[[buttons]]
-    text = "Read the Docs"
-    url = "https://geostyler.github.io/geostyler"
-
-#[asset]
-    #icon = "fas fa-book"
-    #url = "https://geostyler.github.io/geostyler"
+#[[buttons]]
+    #text = ""
+    #url = ""
 +++
-

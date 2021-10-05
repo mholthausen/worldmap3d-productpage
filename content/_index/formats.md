@@ -4,7 +4,7 @@ weight = 110
 
 align = "left"
 title = "Supported Formats"
-subtitle = "Supports SLD, OpenLayers, QML, Mapbox, GeoJSON, WFS, ..."
+subtitle = "Supports WMS, WMS-Time, GeoJSON, CZML, glTF, GeoTIFF, Cesium 3D Tiles…"
 background = "secondary"
 
 [asset]
@@ -12,5 +12,5 @@ background = "secondary"
 
 [[buttons]]
     text = "Read more..."
-    url = "/parsers"
+    url = "/formats"
 +++

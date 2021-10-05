@@ -1,0 +1,10 @@
+.hero-subtitle {
+    color: #fff !important;
+    top: 50%; 
+    right: 50%;
+    transform: translate(50%,-50%);
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 1;
+    text-shadow: 2px 2px 8px #1f1f2e;
+}

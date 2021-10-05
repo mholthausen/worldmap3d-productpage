@@ -2,6 +2,7 @@
 fragment = "table"
 weight = 30
 background = "light"
+disabled = true
 
 title = "Data Formats and more"
 

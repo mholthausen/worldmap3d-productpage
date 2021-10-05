@@ -1,7 +1,7 @@
 +++
 fragment = "nav"
 #disabled = true
-date = "2018-05-17"
+date = "2021-10-04"
 weight = 0
 background = "dark"
 search = false
@@ -14,11 +14,11 @@ sticky = true
 
 # Branding options
 [asset]
-  image = "geostyler-logo-full-white-halo.svg"
-  text = "GeoStyler"
+  image = "logo_light.svg"
+  text = "Worldmap 3D"
 
 [repo_button]
-  url = "https://github.com/geostyler/geostyler"
+  url = "https://github.com/mholthausen/worldmap_3d"
   text = "GitHub" # default: "Star"
   icon = "fab fa-github" # defaults: "fab fa-github"
 

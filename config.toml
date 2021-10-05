@@ -26,8 +26,8 @@ lastmod = ["lastmod", ":git", "date"]
      unsafe = true
 
 [params]
-  name = "GeoStyler"
-  description = "Generic Styler for GeoData"
+  name = "Worldmap 3D"
+  description = "Beyond the limits"
   debug = true
   unsafeEvents = false # Default is false. Enables ?event=type format of url events.
 
@@ -39,7 +39,8 @@ lastmod = ["lastmod", ":git", "date"]
   [params.custom]
     favicon_ico_sizes = "16x16 32x32"
     favicon_png = "favicon.png"
-    favicon_svg = "favicon.svg"
+    favicon_svg = "favicon.ico" # icon hier weiter machen!
+    custom_css = "./css/custom.css"
 
   # Piwik tracking
   [params.analytics.piwik]
@@ -76,11 +77,11 @@ lastmod = ["lastmod", ":git", "date"]
   weight = 10
 
 [[menu.main]]
-  url = "#docs"
-  name = "Docs"
+  url = "#formats"
+  name = "Formats"
   weight = 30
 
 [[menu.main]]
-  url = "#tutorials"
-  name = "Tutorials"
+  url = "#pipeline"
+  name = "Pipeline"
   weight = 40

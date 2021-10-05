@@ -1,5 +1,5 @@
 +++
-date = "2018-07-20"
-title = "GeoStyler"
-description = "Generic Styler for GeoData"
+date = "2021-10-04"
+title = "Worldmap 3D"
+description = "Visualize three-dimensional data structures on a digital globe"
 +++
