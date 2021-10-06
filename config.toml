@@ -2,13 +2,22 @@
 baseurl = "/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
-title = "Okkur - Syna"
+#defaultContentLanguageInSubdir = true
+title = "Worldmap3D"
 theme = "syna"
 #themesDir = "../.."
 enableGitInfo = true
 version = "0.17.3"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 ignorefiles = [ "content/dev/.*" ]
+
+[languages]
+  [languages.en]
+    title = "Worldmap3D"
+    weight = 1
+  [languages.de]
+    title = "Worldmap3D"
+    weight = 2
 
 # Google Analytics tracking
 googleAnalytics = ""
@@ -26,7 +35,8 @@ lastmod = ["lastmod", ":git", "date"]
      unsafe = true
 
 [params]
-  name = "WorldmMap3D"
+  DefaultContentLanguage = "en"
+  name = "WorldMap3D"
   description = "Beyond the limits"
   debug = true
   unsafeEvents = false # Default is false. Enables ?event=type format of url events.
@@ -82,6 +92,21 @@ lastmod = ["lastmod", ":git", "date"]
   weight = 30
 
 [[menu.main]]
+  url = "#pipeline"
+  name = "Pipeline"
+  weight = 40
+
+[[languages.de.menu.main]]
+  url = "/"
+  name = "Home"
+  weight = 10
+
+[[languages.de.menu.main]]
+  url = "#formats"
+  name = "Formate"
+  weight = 30
+
+[[languages.de.menu.main]]
   url = "#pipeline"
   name = "Pipeline"
   weight = 40
