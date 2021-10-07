@@ -14,6 +14,7 @@ TODO
 #Produktblatt vervollständigen übersetzen (en)
 #MainMenu language support
 #grafik pipeline Übersicht, z.B. aus Foss4G Vortrag oder GFZ?
+#github organization for productpage and application
 
 #etc:
 #worldmap3d with ol cesium replaced?
