@@ -10,12 +10,4 @@ Ausführliche Informationen zu den unterstützten Formaten und Datentypen finden
 
 ### HLOD
 
-TODO
-#Produktblatt vervollständigen übersetzen (en)
-#MainMenu language support
-#grafik pipeline Übersicht, z.B. aus Foss4G Vortrag oder GFZ?
-#github organization for productpage and application
-
-#etc:
-#worldmap3d with ol cesium replaced?
-#react-geo-baseclient mit ol-cesium?
+Die Kacheln sind in einer Baumstruktur organisiert, die das Konzept der hierarchischen Detailebene (HLOD) für eine optimale Darstellung von räumlichen Daten beinhaltet. Jede Kachel hat ein Begrenzungsvolumen, ein Objekt, das eine räumliche Ausdehnung definiert, die ihren Inhalt vollständig umschließt. Der Baum ist räumlich kohärent; der Inhalt der untergeordneten Kacheln befindet sich vollständig innerhalb des Begrenzungsvolumens der übergeordneten Kachel.

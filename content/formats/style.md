@@ -10,7 +10,4 @@ Go to [Data Types and Formats](https://cesium.com/learn/3d-tiling/tiler-data-for
 
 ### HLOD
 
-TODO
-#grafik pipeline Übersicht, z.B. aus Foss4G Vortrag oder GFZ?
-#worldmap3d with ol cesium replaced?
-#react-geo-baseclient mit ol-cesium?
+The tiles are organized in a tree structure that implements the concept of hierarchical level of detail (HLOD) for an optimal representation of spatial data. Here, each tile has a so-called bounding volume. This refers to an object that defines a spatial extent that completely encloses its contents. The content of all subordinate tiles is completely within the bounding volume of the parent tile.
